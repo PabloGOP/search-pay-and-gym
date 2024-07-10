@@ -1,0 +1,92 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter debug_adapter
+
+## exception
+
+StateError: Bad state: Future already completed
+
+```
+#0      _Completer.completeError (dart:async/future_impl.dart:19:31)
+#1      ThreadInfo.resolveUrisToPathsBatch.<anonymous closure> (package:dds/src/dap/isolate_manager.dart:1136:58)
+#2      _LinkedHashMapMixin.forEach (dart:collection-patch/compact_hash.dart:633:13)
+#3      ThreadInfo.resolveUrisToPathsBatch (package:dds/src/dap/isolate_manager.dart:1136:20)
+<asynchronous suspension>
+#4      ThreadInfo.resolveUrisToPackageLibPathsBatch (package:dds/src/dap/isolate_manager.dart:1089:21)
+<asynchronous suspension>
+#5      IsolateManager._sendLibraryDebuggables (package:dds/src/dap/isolate_manager.dart:913:5)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:523:21)
+<asynchronous suspension>
+#7      IsolateManager._configureIsolate (package:dds/src/dap/isolate_manager.dart:451:7)
+<asynchronous suspension>
+#8      IsolateManager._handlePause (package:dds/src/dap/isolate_manager.dart:545:7)
+<asynchronous suspension>
+#9      IsolateManager.handleEvent (package:dds/src/dap/isolate_manager.dart:203:7)
+<asynchronous suspension>
+#10     DartDebugAdapter.handleDebugEvent (package:dds/src/dap/adapters/dart.dart:2247:5)
+<asynchronous suspension>
+#11     DartDebugAdapter._withErrorHandling (package:dds/src/dap/adapters/dart.dart:2596:14)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.16.8, on Microsoft Windows [Versi¢n 10.0.22631.3296], locale es-ES)
+    • Flutter version 3.16.8 on channel stable at C:\dev\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 67457e669f (3 months ago), 2024-01-16 16:22:29 -0800
+    • Engine revision 6e2ea58a5c
+    • Dart version 3.2.5
+    • DevTools version 2.28.5
+
+[✓] Windows Version (Installed version of Windows is version 10 or higher)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    • Android SDK at C:\Users\povie\AppData\Local\Android\sdk
+    • Platform android-34, build-tools 34.0.0
+    • Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-b2043.56-10027231)
+    • All Android licenses accepted.
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at .\Google\Chrome\Application\chrome.exe)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Build Tools 2022 17.8.0)
+    • Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools
+    • Visual Studio Build Tools 2022 version 17.8.34309.116
+    • Windows 10 SDK version 10.0.22621.0
+
+[✓] Android Studio (version 2022.3)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-b2043.56-10027231)
+
+[✓] IntelliJ IDEA Ultimate Edition (version 2022.3)
+    • IntelliJ at C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[✓] VS Code (version 1.87.2)
+    • VS Code at C:\Users\povie\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.84.0
+
+[✓] Connected device (3 available)
+    • sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64    • Android 14 (API 34) (emulator)
+    • Windows (desktop)            • windows       • windows-x64    • Microsoft Windows [Versi¢n 10.0.22631.3296]
+    • Edge (web)                   • edge          • web-javascript • Microsoft Edge 122.0.2365.92
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.
+```
