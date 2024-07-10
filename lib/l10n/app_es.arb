@@ -1,0 +1,57 @@
+{
+    "@@locale": "es",
+    "spag": "S P A G",
+
+    "splash_collaborators": "Con la colaboración de",
+
+    "user": "Usuario",
+    "gym": "Gimnasio",
+
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "apply": "Aplicar",
+    "next": "Continuar",
+
+    "login": "Iniciar Sesión",
+    "login_email": "Correo electrónico",
+    "login_pass": "Contraseña",
+    "login_signup": "¿No tienes una cuenta?",
+
+    "signup": "Registrarse",
+    "signup_user_role": "¿Qué eres?",
+    "signup_user_info": "¿Quién eres?",
+    "signup_username": "Nombre",
+    "signup_gymname": "Nombre del gimnasio",
+    "signup_location": "Seleccionar ubicación",
+    "signup_login": "¿Ya tienes una cuenta?",
+    "signup_location_updated": "Ubicación actualizada correctamente",
+    "signup_gym_legalname": "Razón social",
+    "signup_gym_iban": "IBAN",
+    "signup_profile_url": "URL de la imagen de perfil",
+    
+
+    "offer_filter": "Filtrar Ofertas",
+    "gym_offer_add": "Añadir Oferta",
+    "gym_offer_edit": "Editar Oferta",
+    "offer_title": "Título",
+    "offer_description": "Descripción",
+    "offer_expiration": "Fecha de caducidad",
+    "offer_sessions": "Número de sesiones",
+    "offer_price": "Precio",
+    "offer_save": "Guardar oferta",
+    "offer_go": "Ir al Gimnasio",
+
+    "user_label_general": "Ver Ofertas",
+    "user_label_owned": "Mis Ofertas",
+
+    "purchase_remaining": "Restantes",
+    "purchase_remaining_detail": "Sesiones restantes",
+    "purchase_use": "Entrenar Ahora",
+
+    "validator_not_empty": "no puede estar vacío",
+    "validator_email_valid": "Email no válido",
+    "validator_number_valid": "Número no válido",
+    "validator_above_0": "debe ser superior a 0",
+    "validator_length": "no es lo bastante largo"
+
+}

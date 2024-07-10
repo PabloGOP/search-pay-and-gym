@@ -1,0 +1,123 @@
+{
+    "@@locale": "en",
+    "spag": "S P A G",
+    "@spag": {
+        "description": "App title"
+    },
+
+    "splash_collaborators": "With the collaboration of",
+    "@splash_collaborators": {
+        "description": "Text to introduce collaborators of the development"
+    },
+
+    "user": "Usuario",
+    "gym": "Gimnasio",
+
+    "cancel": "Cancel",
+    "@cancel": {
+        "description": "Cancel generic text for dialogs"
+    },
+    "confirm": "Confirm",
+    "@confirm": {
+        "description": "Confirm generic text for dialogs"
+    },
+    "apply": "Apply",
+    "@apply": {
+        "description": "Apply generic text for dialogs"
+    },
+    "next": "Continue",
+    "@next": {
+        "description": "Continue button for dialogs"
+    },
+
+    "login": "Log In",
+    "@login": {
+        "description": "Log in title"
+    },
+    "login_email": "Email",
+    "@login_email": {
+        "description": "Hint text for the email"
+    },
+    "login_pass": "Password",
+    "@login_pass": {
+        "description": "Hint text for the password"
+    },
+    "login_signup": "Don't have an account?",
+    "@login_signup": {
+        "description": "Text for users with no account"
+    },
+
+    "signup": "Sign Up",
+    "@signup": {
+        "description": "Sign up title"
+    },
+    "signup_user_role": "What are you?",
+    "signup_user_info": "Who are you?",
+
+    "signup_username": "Name",
+    "@signup_username": {
+        "description": "Hint text for the user's name"
+    },
+    "signup_gymname": "Gym's name",
+    "signup_location": "Select location",
+    "signup_login": "Already have an account?",
+    "@signup_login": {
+        "description": "Text for users already with account"
+    },
+    "signup_location_updated" : "Location updated successfully",
+    "signup_gym_legalname": "Legal name",
+    "signup_gym_iban": "IBAN",
+    "signup_profile_url": "Profile picture URL",
+
+    "offer_filter": "Filter Offers",
+    "@offer_filter": {
+        "description": "Title for the offers filter page"
+    },
+    "gym_offer_add": "Add Offer",
+    "@gym_offer_add": {
+        "description": "Title for the add offer page"
+    },
+    "gym_offer_edit": "Edit Offer",
+    "@gym_offer_edit": {
+        "description": "Title for the edit offer page"
+    },
+    "offer_title": "Offer Title",
+    "@offer_title": {
+        "description": "Title for the add and edit offer page"
+    },
+    "offer_description": "Offer Description",
+    "@offer_description": {
+        "description": "Description for the add and edit offer page"
+    },
+    "offer_expiration": "Expiration Date:",
+    "@offer_expiration": {
+        "description": "Expiration Date for the add and edit offer page"
+    },
+    "offer_sessions": "Number of sessions",
+    "offer_price": "Price",
+    "@offer_price": {
+        "description": "Price for the add and edit offer page"
+    },
+    "offer_save": "Save Offer",
+    "@offer_save": {
+        "description": "Confirmation button text for the add and edit offer page"
+    },
+    "offer_go": "Go There!",
+    "@offer_go" : {
+        "description": "Text to the gym location link"
+    },
+
+    "user_label_general": "All Offers",
+    "user_label_owned": "My Offers",
+    
+    "purchase_remaining": "Remaining",
+    "purchase_remaining_detail": "Remaining sessions",
+    "purchase_use": "Train now",
+
+    "validator_not_empty": "cannot be empty",
+    "validator_email_valid": "Enter a valid email",
+    "validator_number_valid": "Enter a valid number",
+    "validator_above_0": "must be above 0€",
+    "validator_length": "is not long enough"
+
+}
