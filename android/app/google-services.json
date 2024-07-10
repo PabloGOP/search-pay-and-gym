@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836565681222",
+    "project_id": "spag-uo265314",
+    "storage_bucket": "spag-uo265314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836565681222:android:1958ef29d97086e1bd3647",
+        "android_client_info": {
+          "package_name": "com.example.spag"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzCufUcMtK7CdhUWhDKcZ9GLVrYZmrnOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
